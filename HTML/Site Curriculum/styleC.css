@@ -1,0 +1,73 @@
+/*
+Theme Name:
+Theme URI: 
+Author:
+Description:
+Version:
+License:
+License URI:
+Text Domain:
+*/
+@font-face{
+	font-family: 'Merriweather', serif;
+}
+
+*{
+	margin:10px;
+	padding:5px;/* Marges internes*/
+}
+
+section{
+	margin-left:10%;
+}
+.float{
+	float:right;
+	margin-right:20%;
+}
+
+h2{
+	min-width:50%;
+	border:3px inset;
+	font-size:230%;
+	width:30%;
+	text-align:center;
+	border-radius:30px 30px 50px 50px;
+	margin:0 auto;
+}
+
+h3{
+	text-decoration:underline;
+	text-align:left;
+	font-size:140%;
+	border:5px outset;
+	width:12%;
+}
+
+ul{
+	text-decoration:underline;
+}
+
+li{
+	margin-left:5%;
+	font-style:bold;
+	border:2px inset;
+	font-size:100%;
+	text-decoration:underline;
+}
+
+.identité{
+	font-size:90%;
+	font-family: 'Merriweather', serif;
+	margin-left:7%;
+	padding:0%;
+}
+
+.Nom{
+	width:6%;
+	background-color:#f1efea;
+}
+
+.Qualif{
+	width:11%;
+	background-color:#b9b8b4;
+}

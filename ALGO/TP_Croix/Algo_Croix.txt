@@ -1,0 +1,28 @@
+//ALGO CROIX
+//BUT Dessiner une croix en fonction de la taille demandée par l'utilisateur et son caractère
+//ENTREES caractère, taille
+//SOUTIES Affichage croix
+
+VAR
+	lettre:caractère
+	taille,j,i:entier
+
+DEBUT
+	ECRIRE"Entrez le caractere qui constituera la croix"
+	LIRE lettre
+	ECRIRE"Entrez la taille de la croix"
+	LIRE taille
+		POUR i<-1 A taille FAIRE
+			DEBUT
+					POUR j:=1 A taille FAIRE
+						DEBUT
+								SI (i=j) OU (j=taille-i+1) ALORS
+									DEBUT
+										ECRIRE(lettre)
+									FIN
+								SINON
+							ECRIRE" ";
+						FIN;
+			ECRIRE;
+			FIN;
+FIN.

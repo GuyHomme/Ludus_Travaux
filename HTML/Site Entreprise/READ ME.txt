@@ -1,0 +1,23 @@
+Le but de ce projet, en dehors du fait de présenter une entreprise en mettant en avant la fonctionnalité <form> dans la page HTML, 
+était de mettre en parallèle une seconde version du site "officieuse" sur le thème d'Assassin's Creed, pour éviter une biographie du jeu-vidéo,
+dans ce jeu les assassins font partie d'une organisation secrète. 
+Donner une apparence "officielle" à la première version du site permet d'alimenter ce sentiment de dissimulation.
+
+	Etant donné que la fonctionnalité <form> était plus ou moins celle qui était évaluée, mon idée était de lier le remplissage du formulaire avec 
+l'accès à cette seconde version du site. J'ai donc d'abord pensé à un "onclick" mais cela impliquait que même si le formulaire n'était pas vérifié 
+l'utilisateur pouvait y accéder, j'ai donc préféré utiliser un "onsubmit" mais après plusieurs tests de différentes fonctions JavaScript, le même problème
+s'est présenté : Pour que le "submit" soit considéré comme vrai, il fallait remplir deux fois consécutives les champs du formulaire exactement de la même façon.
+	Exemple: 
+		Si le seul champ du formulaire était " NOM " et qu'il était rempli la première fois par "RARA" et la seconde par "RORO", le submit était FAUX.
+		En revanche, s'il était rempli la première fois par "RARA" et la seconde par "RARA" le submit devenait vrai.
+
+J'ai longtemps cherché à comprendre mais je n'ai pas trouvé de solution.
+L'ironie c'est que cela m'arrange, car cela ajoute justement un côté "procédural" à suivre pour accéder à la version cachée du site. Comme c'est le cas
+dans les organisations secrètes ( Par exemple: taper deux fois de suite un mot de passe ).
+Cependant j'aurai voulu comprendre où se situait le problème et je ne l'ai pas trouvé.
+
+
+1).Veillez à être connecté à internet pour le chargement des polices via GoogleFonts.
+2).Comme expliqué précédemment, il y a deux versions du site, une officielle et une officieuse, pour accéder à la version officieuse (la plus intéressante)
+   il faut remplir deux fois de suite le formulaire de la même façon.
+

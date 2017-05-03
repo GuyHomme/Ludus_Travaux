@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="styleA.css">
+		<link href="https://fonts.googleapis.com/css?family=Merriweather|Rubik+Mono+One" rel="stylesheet"> 
+	</head>
+	
+	<body>
+		<header>
+			<h1 ID="titre">VAPV</h1>
+			<h2>Votre Assurance Pour Vous</h2>
+		</header>
+		<nav>
+			<!--menu-->
+				<img src="Images/Logo.png" id="logo">
+				<div id="onglets">
+					<a href="index.html"><img src="Images/House.PNG"/></a>
+					<a href="partenaires.html"><img src="Images/partenaires.PNG" /></a>
+					<a href="projets.html"><img src="Images/projets.PNG" /></a>
+					<a href="contact.html"><img src="Images/Contact.PNG" alt="contact"/></a>
+				</div>
+		</nav>
+			<h2 class="soustitre">Contact</h2>
+		<section>
+											
+		 
+					<article>
+						<form method="POST/GET" action="#" onsubmit="redirect();" >
+									<fieldset>
+										</br>
+										</br>
+										</br>
+										<label for="nom">Nom</label> : <input type="text" name="nom" id="nom" placeholder=" Nom " maxlength="20"  required />
+										</br>
+										</br>
+										</br>
+										<label for="prenom">Prénom</label> : <input type="text" name="prenom" id="prenom" placeholder=" Prénom "  size="30" maxlength="20" required/>
+										</br>
+										</br>
+										</br>
+										<label for="sexe">Sexe</label> : 
+										</br>
+										</br>
+										<input type="radio" name="sexe" value="Homme" id="Homme" checked/><label for="Homme">Homme</label><br/>
+										<input type="radio" name="sexe" value="Femme" id="Femme" checked/><label for="Femme">Femme</label><br/>
+										</br>
+										</br>
+										</br>
+										<label for="mail">E-mail</label> : <input type="email" name="mail" id="mail" size="30" placeholder=" exemple@hotmail.fr" required>
+										</br>
+										</br>
+										</br>
+										<label for="age">Âge</label> : <input type="number" name="age" id="age" min="18" max="99" required/>
+										</br>
+										</br>
+										<br/>
+										<label for="boite">Entreprise</label> : <input type="text" name="boite" id="boite" placeholder=" Entreprise " required/>
+										</br>
+										</br>
+										<br/>
+										<label for="Pays">Pays</label> : 
+											<select name="pays" id="pays">
+												<optgroup label="Europe">
+													<option value="France">France</option>
+													<option value="Belgique">Belgique</option>
+													<option value="Suisse">Suisse</option>
+												<optgroup label="Amérique">
+													<option value="Canada">Canada</option>
+												<optgroup label="Autre">
+													<option value="Autre">Autre</option>
+											</select>
+										</br>
+										</br>
+										<br/>
+										<label for="objet">Objet</label> : <input type="text" name="objet" id="objet" placeholder=" Objet de votre requête" size="30" required>
+										</br>
+										<br/>
+										<label for="requete">Requête</label> : <textarea name="requete" id="requete" rows="10" cols="50" required></textarea>
+										<br/>
+										<br/>
+										<input type="submit" name="submit" value="submit"  />
+											
+										</br>
+									</fieldset>
+									
+						</form>
+					</article>
+				<script type="text/javascript" language="javascript">
+						function redirect() {window.location.replace('http://localhost/Entreprise/realindex.html');}
+				</script>
+		</section>
+		<footer>
+		</footer>
+	</body>
+</html>
+
+
+
+
