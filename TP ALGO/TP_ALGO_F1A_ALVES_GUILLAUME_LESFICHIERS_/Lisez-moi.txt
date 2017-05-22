@@ -1,0 +1,2 @@
+Avant de tester les algorithmes et les programmes, merci de bien veiller à modifier la constante CheminAcces qui définit fondamentalement le chemin d'accès sur votre ordinateur.
+Un exemple y est déjà inscrit. 
