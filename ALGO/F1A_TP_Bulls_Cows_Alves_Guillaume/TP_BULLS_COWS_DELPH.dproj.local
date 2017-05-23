@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/05/16 14:53:31.000.567,=C:\Users\Tamen\OneDrive\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2017/05/16 14:53:38.000.978,C:\Users\Tamen\OneDrive\Documents\Embarcadero\Studio\Projets\TP_Cours\TP_PAS.pas=C:\Users\Tamen\OneDrive\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2017/05/16 14:53:38.000.978,C:\Users\Tamen\OneDrive\Documents\Embarcadero\Studio\Projets\TP_Cours\TP_PAS.dfm=C:\Users\Tamen\OneDrive\Documents\Embarcadero\Studio\Projets\Unit1.dfm</Transaction>
+    <Transaction>2017/05/16 14:53:42.000.009,C:\Users\Tamen\OneDrive\Documents\Embarcadero\Studio\Projets\TP_Cours\TP_DELPH.dproj=C:\Users\Tamen\OneDrive\Documents\Embarcadero\Studio\Projets\Project1.dproj</Transaction>
+    <Transaction>2017/05/16 14:54:06.000.152,=C:\Users\Tamen\OneDrive\Documents\Embarcadero\Studio\Projets\TP_Cours\Unit2.pas</Transaction>
+    <Transaction>2017/05/16 14:55:56.000.957,C:\Users\Tamen\OneDrive\Documents\Embarcadero\Studio\Projets\TP_Cours\TP_F2_PAS.pas=C:\Users\Tamen\OneDrive\Documents\Embarcadero\Studio\Projets\TP_Cours\Unit2.pas</Transaction>
+    <Transaction>2017/05/16 14:55:56.000.957,C:\Users\Tamen\OneDrive\Documents\Embarcadero\Studio\Projets\TP_Cours\TP_F2_PAS.dfm=C:\Users\Tamen\OneDrive\Documents\Embarcadero\Studio\Projets\TP_Cours\Unit2.dfm</Transaction>
+    <Transaction>2017/05/21 20:44:48.000.457,C:\Users\Tamen\OneDrive\Documents\Embarcadero\Studio\Projets\TP_Cours\TP_F2_PAS.pas=</Transaction>
+    <Transaction>2017/05/23 15:45:42.000.732,C:\Users\Tamen\OneDrive\Documents\Embarcadero\Studio\Projets\TP_Cours\TP_PAS.dfm=C:\Users\Tamen\OneDrive\Documents\Embarcadero\Studio\Projets\TP_Cours\TP_BULLS_COWS_PAS.dfm</Transaction>
+    <Transaction>2017/05/23 15:45:42.000.732,C:\Users\Tamen\OneDrive\Documents\Embarcadero\Studio\Projets\TP_Cours\TP_PAS.pas=C:\Users\Tamen\OneDrive\Documents\Embarcadero\Studio\Projets\TP_Cours\TP_BULLS_COWS_PAS.pas</Transaction>
+    <Transaction>2017/05/23 15:47:31.000.782,C:\Users\Tamen\OneDrive\Documents\Embarcadero\Studio\Projets\TP_Cours\TP_BULLS_COWS_DELPH.dproj=C:\Users\Tamen\OneDrive\Documents\Embarcadero\Studio\Projets\TP_Cours\TP_DELPH.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
