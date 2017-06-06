@@ -1,0 +1,177 @@
+ /*
+Theme Name: Theme site Bulls & Cows SEMI RESPONSIVE
+Theme URI: ludus1B.com
+Author: Guillaume Alves
+Description: Theme css site web Bulls & Cows
+Version: 1.0
+License: Ludus1B
+License URI: Ludus1B.com
+Text Domain: ludus1B
+*/
+*{
+	font-weight:bold;
+	margin:0;
+	padding:0;    
+    font-family: 'Cinzel', serif;
+}
+
+body{
+	background:url("Images/BCG.jpg") center fixed no-repeat;
+	background-size:cover;
+}
+
+nav{
+	margin-top: 5%;
+	margin-bottom:1%;
+	display:flex;
+	width:100%;
+	min-height:40px;
+	justify-content:space-around;
+	background-color:rgba(0,0,0,0.5);
+	font-weight:bold;
+}
+
+
+nav li a:hover{
+	background-color:rgba(54, 176, 56, 0.79);
+	color:orange;
+	
+}
+nav li a:hover:not(.active) {
+	background-color:rgba(100,100,100,0.4);
+}
+
+nav li{	
+	text-decoration:none;
+	display:inline;
+}
+
+nav li a{
+	display:block;
+	text-align:center;
+    padding: 14px 16px;
+	color:white;
+	text-decoration:none;
+}
+
+section{
+	color:white;
+	margin-top:10%;
+	background-color:rgba(0,0,0,0.7);
+	padding:2%;
+	min-height:500px;
+}
+
+header{
+	margin:0 auto;
+	margin-top:1%;
+	border:5px solid;
+	width:50%;
+}
+
+article{
+	max-width:800px;
+	margin:0 auto;
+	margin-top:20px;
+}
+
+article img{
+	width:280px;
+	height:180px;
+}
+
+form{
+	display:flex;
+	justify-content:center;
+	margin:auto;
+	padding:10px;
+	color:white;
+}
+
+fieldset{
+	padding:0 20px 20px 20px;
+	margin-bottom:10px;
+	border:5px double #Df3F3F;
+}
+
+input,textarea{
+	padding:3px;
+	border:1px solid #F5C5C5;
+	margin:0 auto;
+	margin-top:15px;
+	margin-left:15px;
+	background-color:white;
+}
+
+
+input[type=button], input[type=reset] {
+	color:grey;
+	width: 100px;
+	display:inline;
+	box-shadow:2px 2px 2px grey;
+	cursor:pointer;
+}
+
+h1{
+	color:white;
+	text-align:center;
+	font-family: 'Quattrocento', serif;
+	font-size:3em;
+	text-shadow:2px 2px black;
+}
+
+
+
+.titre{
+	color:white;
+	text-shadow:1px 1px black;
+	font-size:15px;
+	font-weight:bold;
+}
+
+footer{
+	background:url("Images/footer.png");
+	background-size:100%;
+	background-repeat:no-repeat;
+	background-position-y:-5%;
+}
+
+footer img{
+	margin:40px;
+	width:10%;
+}
+
+p{
+	display:block;
+	margin:0 auto;
+	max-width:1000px;
+	overflow:auto;
+}
+
+.combi{
+	display:inline;
+	max-width:50px;
+}
+
+.combi1, .combi2, .combi3, .combi4, .combi5, .combi6, .combi7{
+	display:inline;
+	max-width:50px;
+}
+#cows,#bulls{
+	display:inline;
+	max-width:50px;
+}
+
+#reponse{
+	min-width:280px;
+	max-width:300px;
+	margin-left:2%;
+}
+
+.centre{
+	margin-left:30%	;
+}
+
+
+
+
