@@ -1,4 +1,4 @@
-create DATABASE PLANNING;
+create DATABASE planning;
 
 create table NIVEAU(
 	NOM_NIV char (32) not null,
