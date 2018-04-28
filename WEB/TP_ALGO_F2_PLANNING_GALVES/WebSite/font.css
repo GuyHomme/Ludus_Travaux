@@ -1,0 +1,228 @@
+
+body{
+	background-image:url("images/bcg.jpg");
+	background-repeat:no-repeat;
+	background-size:100%;
+    background-attachment: fixed;
+}
+
+header, caption{
+	text-align: center;
+	color: rgb(219, 99, 19);
+	font-family: 'Merriweather';
+	
+	margin: 0 auto;
+}
+
+header img{
+	width: 200px;
+	height: 200px;
+}
+
+nav{
+	position: fixed;
+	
+	
+	color: white;
+	font-family: 'Merriweather';
+	
+	border-style: solid;
+	border-radius: 20px;
+	border-color: black;
+	
+	background-image:url("images/bcgNav.jpg");
+	background-repeat:no-repeat;
+	text-align:center;
+}
+
+nav ul{
+	padding: 0;
+	list-style-type: none;
+}
+
+nav li{
+	padding: 1em;
+	
+	display:block;
+	
+}
+
+nav li:hover:not(#logName){
+	background-color:rgb(124, 206, 24);
+}
+nav li:active:not(#logName){
+	color:green;
+}
+nav a{
+	color:white;
+	text-decoration:none;
+	
+}
+nav a:visited{
+	color:grey;
+}
+
+
+section{
+	margin-left:12em;
+	margin-right:6em;
+	padding:2em;
+	
+	background-color:white;
+	border-style: solid;
+	border-color:grey;
+	
+	overflow:auto;
+}
+
+aside{
+	float:right;
+	
+	margin-top: 2em;
+	margin-right: 2em;
+	
+	text-align:center;
+}
+
+aside img{
+	width:18em;
+	height:13em;
+	
+	border-style:solid;
+	border-radius:10px;
+	
+	display:block;
+}
+
+article{
+	margin-bottom:10em;
+	margin-left:2em;
+	margin-right:24em;
+	padding:1em;
+	
+	border-style:ridge;
+}
+
+form{
+	margin-left: 10em;
+	margin-right: 10em;
+	padding: 2em;
+}
+
+input[type = text], select, input[type = date], input[type = mail]
+{
+	margin: 0 auto;
+	margin-top: 2em;
+	max-width: 20em;
+	
+	font-family: 'Merriweather';
+	border: 0.1em solid black;
+	border-radius: 0.2em;
+	background-color: rgb(136, 221, 33);
+}
+
+input[type = submit]
+{
+	margin-top: 4em;
+	margin-left: 10em;
+	margin-right: 10em;
+	display: block;
+}
+
+#buttRetour{
+	background-color: rgb(144, 165, 165);
+}
+
+table{
+	margin: 0 auto;
+	
+	text-align: center;
+	
+	font-family: 'Merriweather';
+	border: 0.1em solid black;
+	border-radius: 0.2em;
+	background-color: rgb(136, 221, 33);
+}
+
+td, th{
+	width: 10em;
+}
+
+label{
+	margin: 0 auto;
+	margin-top: 2em;
+	max-width: 20em;
+	
+	display:block;
+	
+}
+
+
+p{
+	font-size: 78%;
+	font-family: 'Merriweather';
+}
+
+.afficheCellule{
+	margin:0 auto;
+	
+	display: block;
+}
+
+h4{
+	text-decoration: underline;
+	font-family: Merriweather;
+}
+
+#Femme{
+	background-color:pink;
+}
+
+#Homme{
+	background-color:rgb(95, 147, 232);
+}
+
+footer{
+	margin-top:10%;
+	
+	width: 100%;
+	height: 20%;
+	
+	color: white;
+	
+	background-image:url("images/footer.png");
+	background-repeat: no-repeat;
+	background-size:100%;
+}
+
+footer img{
+	margin-left: 10em;
+	
+	width:8em;
+	height:8em;
+}
+
+#dateCourante{
+	margin-top: 3em;
+	margin-right: 10em;
+	
+	float: right;
+	
+	min-width: 18em;
+}
+
+td, th{
+	border: 1px solid black;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+.imgEtudiant{
+	width:12em;
+	height:10em;
+	
+	border-style:solid;
+	border-radius:10px;
+}
