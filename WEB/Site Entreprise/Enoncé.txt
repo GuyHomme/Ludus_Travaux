@@ -1,4 +1,0 @@
-Accès première page -> présentation de l'entreprise
-Seconde page 		-> présentation des partenaires
-Troisième page		-> présentation des projets 
-Quatrième page		-> Contact (nom, prénom, entreprise, sujet, message) AUTOFOCUS ET  (REQUIRED)tous les champs doivent être requis
